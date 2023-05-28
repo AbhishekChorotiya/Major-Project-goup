@@ -12,7 +12,7 @@ const Admin_dash = () => {
 
         <div className="button_div">
           <a href="/">Manage Students</a>
-          <a href="/courseCard">Register Faculty</a>
+          <a href="/facultyReg">Register Faculty</a>
           <a href="/addcourse">Add Courses</a>
         </div>
       </div>
