@@ -31,7 +31,7 @@ let TakeAttendance = () => {
       <div className="navbar">
         <a className="nav_text">Attendance</a>
       </div>
-      <div className="content">
+      <div className={Styles.content}>
         <div className={Styles.TakeAttendance}>
           <table>
             <tr>
@@ -51,6 +51,9 @@ let TakeAttendance = () => {
               </tr>
             ))}
           </table>
+        </div>
+        <div className={Styles.submitAttendance}>
+          <button>Done</button>
         </div>
       </div>
     </div>
