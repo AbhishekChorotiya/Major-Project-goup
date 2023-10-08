@@ -45,6 +45,7 @@ app.use(
 // CONNECTING SERVER TO MONGODB DATABASE --------------------------------------------------------
 mongoose.connect("mongodb://127.0.0.1:27017/LMS");
 var db = mongoose.connection;
+//checking
 
 db.on("error", console.log.bind(console, "Connection Error"));
 db.once("open", () => {
